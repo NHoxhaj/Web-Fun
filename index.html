@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="title">DojoWeather</h1>
+        <div class="cities">
+            <p  onclick="alertC()">Burbank</p>
+            <p  onclick="alertC()">Chicago</p>
+            <p  onclick="alertC()">Dallas</p>
+        </div>
+    </div>
+    <div class="firstl">
+        <h1 class="city">San Jose</h1>
+        <div class="unit">
+            <label for="unit">show temperature in </label>
+            <select onchange="convDeg()" name="unit" id="unit">
+                <option value="&deg;C">&deg;C</option>
+                <option value="&deg;F">&deg;F</option>
+            </select>
+        </div>
+    </div>
+    <div class="content">
+        <div class="days">
+            <h1 class="day">Today</h1>
+            <img class="img" src="./img/some_rain.png" alt="rain icon">
+            <p id="txt">some rain</p>
+            <div class="temp">
+                <p class="high">24&deg;</p>
+                <p class="low">18&deg;</p>
+            </div>
+        </div>
+        <div class="days">
+            <h1 class="day">Tomorrow</h1>
+            <img class="img" src="./img/some_sun.png" alt="sun icon">
+            <p id="txt">some sun</p>
+            <div class="temp">
+                <p class="high">27&deg;</p>
+                <p class="low">19&deg;</p>
+            </div>
+        </div>
+        <div class="days">
+            <h1 class="day">Friday</h1>
+            <img class="img" src="./img/some_clouds.png" alt="clouds icon">
+            <p id="txt">some clouds</p>
+            <div class="temp">
+                <p class="high">21&deg;</p>
+                <p class="low">16&deg;</p>
+            </div>
+        </div>
+        <div class="days">
+            <h1 class="day">Saturday</h1>
+            <img class="img" src="./img/some_sun.png" alt="sun icon">
+            <p id="txt">some sun</p>
+            <div class="temp">
+                <p class="high">26&deg;</p>
+                <p class="low">21&deg;</p>
+            </div>
+        </div>
+       
+    </div>
+<div id="cookie">
+    <img src="./img/cookie.png" alt="cookie">
+    <div class="text">
+        <h1>Stop! Cookie time</h1>
+        <p>We use cookies (sadly not the edible ones) to personalise content and ads, to provide social media features and to analyse out traffic. <a href="">Read more...</a></p>
+    </div>
+    <button onclick="remove()" id="btn">I Accept</button>
+
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+.nav{
+    width: auto;
+    height: 90px;
+    background-color: rgb(159,197,248);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: -13px;
+    margin-left: -13px;
+    margin-right: -13px;
+
+}
+.title{
+    flex: 1;
+    font-size: 40px;
+    padding: 10px 0px 0px 130px;
+
+}
+.cities{
+   display: flex;
+    flex: 1;
+   font-size: 30px;
+justify-content: space-around;
+padding-right: 100px;
+}
+.firstl{
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid black;
+    margin-left: 120px;
+    margin-right: 130px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.city{
+    flex: 1;
+    font-size: 35px
+}
+.unit{
+    display: flex;
+    flex: 1;
+    padding-left: 500px;
+    font-size: 20px;
+}
+#unit{
+    margin-left: 20px;
+    padding-left: 5px;
+}
+.content{
+    margin-left: 70px;
+    margin-right: 130px;
+    display: flex;
+    margin-top: 10px;
+    margin-right:130px ;
+}
+.days{
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: rgb(238,238,238);
+   
+
+}
+.days .img{
+    width: 140px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.temp{
+    display: flex;
+    justify-content:space-around ;
+}
+.high{
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.low{
+    color: blue;
+    font-size: 25px;
+    font-weight: bolder;}
+.day{
+   padding: 10px 0px 0px 30px;
+   
+}
+#txt{
+    font-size: 20px;
+    padding: 0px 0px 15px 50px;
+}
+
+#cookie{
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    background-color: rgb(238,238,238);
+    margin-left: 120px;
+    margin-right: 140px;
+    margin-top: 5px;
+    height: 120px;
+    position: fixed;
+}
+#cookie >img{
+    width: 70px;
+    height: 70px;
+    padding-left: 30px;
+   
+}
+#cookie .text{
+    padding-left: 20px;
+    padding-right:100px;
+    margin-top: -40px;
+   
+}
+#cookie .text>p{
+    font-size: 18px;
+}
+#btn{
+    width:155px;
+    height: 35px;
+    background-color: rgb(159,197,248) ;
+    border: 2px solid black;
+    padding: 5px 10px;
+    box-shadow: 2px 3px 2px 3px black;
+    margin-right: 40px;
+    font-weight: bold;
+}
+#cookie .text>h1{
+    padding-top: 15px;
+    font-size: 20px;
+}
